@@ -11,7 +11,7 @@ git add EastCoordinates.txt
 git commit -m "second commit"
 git push origin master
 
-git add IndianOcean.png
+git add AMRITAPURI.png
 git commit -m "third commit"
 git push origin master
 
