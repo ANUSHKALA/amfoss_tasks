@@ -52,7 +52,7 @@
     <tr>
     <td>Setup a Simple Personal Website</td>
     <td>task-09</td>
-    <td>Done</td>
+    <td>Attempted</td>
   </tr>
   <tr>
     <td>CS50</td>
