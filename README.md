@@ -47,7 +47,7 @@
     <tr>
     <td>JSExplorer</td>
     <td>task-08</td>
-    <td>Done</td>
+    <td>Attempted</td>
   </tr>
     <tr>
     <td>Setup a Simple Personal Website</td>
