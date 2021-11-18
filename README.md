@@ -62,7 +62,7 @@
   </tr>
     <tr>
     <td>Poster Design</td>
-    <td><a herf='https://github.com/ANUSHKALA/amfoss_tasks/tree/main/task-11'>task-11</a></td>
+    <td><a href='https://github.com/ANUSHKALA/amfoss_tasks/tree/main/task-11'>task-11</a></td>
     <td>Done</td>
   </tr>
     <tr>
