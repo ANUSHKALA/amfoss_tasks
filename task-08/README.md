@@ -1,4 +1,4 @@
-I in my 8th standard did study HTML so I kina thouht that atleast this task I could pull off without much difficulty but I eventually realised that it required much more knowledge that what I had originally known.
+I did study HTML in my 8th standard so I kinda thouht that atleast this task I could pull off without much difficulty but I eventually realised that it required much more knowledge that what I had originally known.
 
 It was a good task.
 
