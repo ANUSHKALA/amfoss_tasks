@@ -1,16 +1,11 @@
 #define green 13
 #define red 11
 #define buzzer 10
-
-
-//The sensor will give green light if the vehicle is present in the parking lot
-//The sensor will give green light if the height of the vehicle is less than 2m
-//Thr buzzer will ring if the height of the vehicle is more than 5m
-
-
+//The sensor will give green light if the distance between your vehicle and the object in parking lot id more than 3m i.e there is no car in the lot
+//The sensor will give green light if the distance between your vehicle and the object in parking lot id less than 3m and more than 1m
+//Thr buzzer will ring if the distance between your vehicle and the object in parking lot id less than 1m
 int inches = 0;
 int cm = 0;
-
 long readUltrasonicDistance(int triggerPin, int echoPin)
 {
   pinMode(triggerPin, OUTPUT);  // Clear the trigger
@@ -24,8 +19,6 @@ long readUltrasonicDistance(int triggerPin, int echoPin)
   // Reads the echo pin, and returns the sound wave travel time in microseconds
   return pulseIn(echoPin, HIGH);
 }
-
-
 void setup()
 {
   Serial.begin(9600);
@@ -33,8 +26,6 @@ void setup()
   pinMode(red,OUTPUT);
   pinMode(buzzer,OUTPUT);
 }
-
-
 void loop()
 {
   // measure the ping time in cm
@@ -46,31 +37,25 @@ void loop()
   Serial.print(cm);
   Serial.println("cm");
   delay(100); // Wait for 100 millisecond(s)  
-  if(cm>=201 && cm<300)
-  
-  
-  
+  if(cm>=201 && cm>=300)
   {
     digitalWrite(green,HIGH);
     delay(500);
     digitalWrite(green,LOW);
     delay(500);    
-  } 
-  
-  else if(cm<=200)
+  }  
+  else if(cm>100 && cm<300)
   {
     digitalWrite(red,HIGH);
     delay(500);
     digitalWrite(red,LOW);
     delay(500); 
-  } 
-  
-  else if(cm>=300)
+  }  
+  else if(cm<=100)
   {
     digitalWrite(buzzer,HIGH);
     delay(500);
     digitalWrite(buzzer,LOW);
     delay(500); 
-  }
-  
+  }  
 }
