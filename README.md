@@ -76,7 +76,7 @@
   </tr>
     <tr>
     <td>Bandit</td>
-      <td><a herf='https://github.com/ANUSHKALA/amfoss_tasks/tree/main/task-14'>task-14</a></td>
+      <td><a href='https://github.com/ANUSHKALA/amfoss_tasks/tree/main/task-14'>task-14</a></td>
     <td>Done</td>
   </tr>
     <tr>
