@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td>Star all the amFOSS repositories</td>
-    <td href='https://github.com/ANUSHKALA/amfoss_tasks/tree/main/task-01'>task-01</td>
+    <td ><a href='https://github.com/ANUSHKALA/amfoss_tasks/tree/main/task-01'>task-01</a></td>
     <td>Done</td>
   </tr>
     <tr>
