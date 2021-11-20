@@ -58,7 +58,7 @@
   <tr>
     <td>CS50</td>
     <td><a href='https://github.com/ANUSHKALA/amfoss_tasks/tree/main/task-10'>task-10</a></td>
-    <td>Till week2</td>
+    <td>Till week 1</td>
   </tr>
     <tr>
     <td>Poster Design</td>
