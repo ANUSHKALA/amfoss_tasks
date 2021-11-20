@@ -1,4 +1,4 @@
-<h5>Hello this is Anushka Kaimal. I live in Rajasthan, Jaipur and am currently studying as a CSE-AI first year student in Amrita Vishwa Vidyapeetham, Amritapuri.</h5>\
+<h5>Hello, this is Anushka Kaimal. I live in Rajasthan, Jaipur and am currently studying as a CSE-AI first year student in Amrita Vishwa Vidyapeetham, Amritapuri.</h5>\
 
 
 
