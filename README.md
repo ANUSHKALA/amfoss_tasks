@@ -6,7 +6,7 @@
   </tr>
   <tr>
     <td>Install Ubuntu 20.04 [Desktop]</td>
-    <td><a>task-00</a></td>
+    <td><a href='https://github.com/ANUSHKALA/amfoss_tasks/tree/main/task-00'>task-00</a></td>
     <td>Done</td>
   </tr>
   <tr>
